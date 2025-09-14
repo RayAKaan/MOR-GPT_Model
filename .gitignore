@@ -1,0 +1,99 @@
+# ======================
+# Logs
+# ======================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ======================
+# Node.js build files
+# ======================
+node_modules
+dist
+dist-ssr
+*.local
+
+# ======================
+# Python cache/build files
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+wheels/
+*.manifest
+*.spec
+
+# ======================
+# Virtual environments
+# ======================
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+*.virtualenv
+
+# ======================
+# Jupyter/IPython
+# ======================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ======================
+# Datasets & Checkpoints
+# ======================
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.json
+*.txt
+*.zip
+*.tar.gz
+*.tgz
+*.pth
+*.pt
+*.bin
+*.npy
+*.npz
+*.safetensors
+checkpoints/
+runs/
+
+# ======================
+# Editor/IDE files
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ======================
+# Other
+# ======================
+*.bak
+*.tmp
+*.lock
+# MLflow experiment tracking
+mlruns/
